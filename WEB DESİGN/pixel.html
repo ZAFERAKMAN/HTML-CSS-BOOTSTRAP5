@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ZAFER AKMAN KİŞİSEL WEB SİTESİ">
+    <meta name="keyword" content="Zafer,Akman,Web,Site,Kişisel,html,css,js">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Zafer Akman">
+    <link rel="icon" href="resimler/favicon (3).ico" type="image/x-icon">
+    <title>ZAFERAKMAN</title>
+    <style>
+        @charset "utf-8";
+        .navbar-collapse.Anamenu{
+            flex-grow: initial;
+        }
+        
+        .ustMenuAlanı{
+            margin-top: 15px;
+            margin-bottom:15px;
+        }
+        .servislerBaslik{
+            color:black;
+            margin-bottom:15px;
+        }
+        .servisAlani{
+          margin-top: 15px;
+          margin-bottom:15px;
+        }
+
+        .isleryazi{
+            margin-bottom:20px;
+            font-size:14px;
+        }
+       /* .sliderAlani{
+            width: 80%;
+            margin:0 auto;
+            padding: 80px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+        }
+        .card-body{
+            width: 150px;
+            width: 150px;
+            height: 150px;
+            background: gray;
+            margin: 0px 14px;
+            transition: 0.5s;
+    
+        }
+        
+        .card-body:hover{
+            transform: scale(1.2);
+            background: black;
+            z-index: 2;
+        } */
+            
+        
+        .sagmenu{
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+            text-align: right;
+            
+
+        }
+      
+        
+        .sagmenu li{
+            list-style-type:none;
+            margin-bottom: 10px;
+
+        }
+        .body{
+          background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+        }
+            
+        .sagmenu li a{
+            text-decoration: none;
+            color:black;
+        }
+
+        .sagmenu li a:hover{
+            color:red;
+        }
+        .navbar-collapse.Anamenu li{
+          margin: 0;
+        }
+        .navbar-collapse.Anamenu li a{
+          color:black;
+        }
+          .navbar-collapse.Anamenu li a:hover{
+            color:blue;
+          }
+        .card-text{
+          margin:0 0 0 0;
+        }
+          .animate-charcter
+{ margin-left:160px;
+  text-align:center;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 150px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+  }
+  .animate-charcter li{
+    text-decoration: none;
+  }
+  .animate-charcter li a{
+    text-decoration:none;
+    color:white;
+  }
+  .animate-charcter li a:hover{
+    color:red;
+  }
+  .animate-charcter li::marker{
+    text-decoration: none;
+    
+    @media (prefers-color-scheme: dark) {
+  img {
+    opacity: .75;
+    transition: opacity .5s ease-in-out;
+  }
+  img:hover {
+    opacity: 1;
+  }
+    }
+}
+
+
+     </style>
+
+    <!--CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet"> 
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="bootstrap.js" rel="stylesheet">
+
+  </head>
+  <body class="body">
+    <div class="container ustMenuAlanı">
+        <div class="row">
+            <div class="col-12">
+
+                <nav class="navbar navbar-dark bg-secondary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html" title="Zafer Akman Site"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse Anamenu" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html" title="Ana Sayfa" class="animate-charcter">Ana Sayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hakkimizda.html" title="Hakkımızda">Hakkımızda</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="iletisim.html" title="İletişim">İletişim</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Servisler">
+            Servisler
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="logo.html">Logo Tasarımı</a></li>
+            <li><a class="dropdown-item" href="banner.html">Banner Tasarımı</a></li>
+            <li><a class="dropdown-item" href="pixel.html">Pixel Tasarımı</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+                </nav>
+</nav>
+            </div>
+        </div>
+    </div>
+   
+      
+    </div>
+
+        <div class="container servisAlani">
+            <div class="row">
+                <div class="col-12">
+                  <ul>
+                    <h2 class="animate-charcter"><a href=pixel.html style="margin-left: 160px;">PİXEL</h2></a>
+                  </ul>
+                </div>
+                <div class="col-4">
+                 </div>
+                 <div class="containerr"></div>
+                 <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="resimler/ay.png" class="card-img-top" alt="Ay pixel art">
+                        <div class="card-body">
+                          <h5 class="card-title">Pixel Art Çizimim(Gerçek İş)</h5>
+                          <ul>
+                            <p class="card-text">İnsanların istediği tarza göre yaptığım örnek tasarım.</p>
+                          </ul>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Son güncelleme 3 dakika önce</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="resimler/Pixel Art deneme (2).png" class="card-img-top" alt="Pixel Art Çizim">
+                        <div class="card-body">
+                          <h5 class="card-title">Pixel Art Çizimim</h5>
+                          <p class="card-text">İnsanlara yaptığım işleri göstermek için yaptığım tasarım.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Son güncelleme 5 dakika önce</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="resimler/BİONLUK KEDİ.png" class="card-img-top" alt="Pixel Art Kedi Çizimi">
+                        <div class="card-body">
+                          <h5 class="card-title">Pixel Art Gerçek İş</h5>
+                          <p class="card-text">İnsanların istediği tarza göre yaptığım örnek tasarım.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Son güncelleme 7 dakika önce</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                          <img src="resimler/Selection.png" class="card-img-top" alt="Pixel Art Çizim">
+                          <div class="card-body">
+                            <h5 class="card-title">Pixel Art Gerçek İş</h5>
+                            <p class="card-text">İnsanların istediği tarza göre yaptığım örnek tasarım..</p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Son güncelleme 5 dakika önce</small>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100">
+                          <img src="resimler/nnnn.png" class="card-img-top" alt="Pixel Art Gerçek İş">
+                          <div class="card-body">
+                            <h5 class="card-title">Pixel Art Gerçek İş</h5>
+                            <p class="card-text">İnsanların istediği tarza göre yaptığım örnek tasarım..</p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Son güncelleme 5 dakika önce</small>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100">
+                          <img src="resimler/BİONLUK BEYAZ KEDİ.png" class="card-img-top" alt="Pixel Art Kedi Gerçek İş">
+                          <div class="card-body">
+                            <h5 class="card-title">Pixe Art Gerçek iş </h5>
+                            <p class="card-text">İnsanların istediği tarza göre yaptığım örnek tasarım..</p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Son güncelleme 5 dakika önce</small>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <a href="https://bionluk.com/zaferakman" style=margin-left:60px; class="btn btn-primary btn-lg active" role="button" aria-pressed="true">BİONLUK HESABIM</a>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                        </div>
+                      </div>
+                      </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="container islerimalani">
+            <div class="row">
+                <div class="col-12">
+                    
+                </div>
+
+                </ul>
+
+            </div>
+        </div>
+          
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    
+                </div>
+            </div>
+        </div>
+
+    <!--JAVASCRIPT-->
+    <script src="bootstrap.js"></script>
+
+    
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
